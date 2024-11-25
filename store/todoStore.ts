@@ -16,7 +16,7 @@ interface TodoState {
   addTodo: (todo: TodoProps) => void;
   toggleTodo: (id: number) => void;
   deleteTodo: (id: number) => void;
-  updateTodo: (id: number, title: string, description: string) => void; // New method for updating todos
+  updateTodo: (id: number, title: string, description: string) => void;  
 
   setFilter: (filter: Filter) => void;
 }
