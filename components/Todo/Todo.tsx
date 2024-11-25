@@ -8,9 +8,9 @@ import TodoList from "./TodoList";
 const Todo: React.FC = () => {
   const [active, setActive] = React.useState(false);
   return (
-    <div>
+    <div className=" bg-gradient-to-b from-orange-400 to-orange-100 min-h-screen ">
       <div className="flex justify-between p-2  fixed w-full z-50  items-end bg-orange-200">
-        <div className="text-3xl text-purple-900 font-bold">Taskfy</div>
+        <div className="text-3xl text-purple-900 font-bold">Todo List</div>
         <Button
           color="secondary"
           onClick={() => setActive(!active)}

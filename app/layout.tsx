@@ -22,7 +22,7 @@ export default async function RootLayout({
     <html>
       <body>
         <NextUi>
-          <div className="bg-white mb-4 pb-8 ">{children}</div>
+          <div className="bg-gradient-to-b from-orange-400 to-orange-100    ">{children}</div>
         </NextUi>
       </body>
     </html>
