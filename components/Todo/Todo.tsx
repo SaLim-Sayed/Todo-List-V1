@@ -8,7 +8,7 @@ import TodoList from "./TodoList";
 const Todo: React.FC = () => {
   const [active, setActive] = React.useState(false);
   return (
-    <div  >
+    <div>
       <div className="flex justify-between p-2  fixed w-full z-50  items-end bg-orange-200">
         <div className="text-3xl text-purple-900 font-bold">Taskfy</div>
         <Button
@@ -27,7 +27,7 @@ const Todo: React.FC = () => {
           <TodoList />
         </div>
         <div className="hidden md:flex w-full md:w-1/3 ">
-           <TodoForm setActive={setActive} /> 
+          <TodoForm setActive={setActive} />
         </div>
       </div>
     </div>

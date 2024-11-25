@@ -36,8 +36,7 @@ export const TodoEditModal: React.FC<TodoEditModalProps> = ({
   } = useForm<TodoFormData>({
     resolver: zodResolver(todoSchema),
   });
-
-  // Reset form whenever the modal is opened or the todo changes
+ 
   useEffect(() => {
     if (isOpen) {
       reset({
